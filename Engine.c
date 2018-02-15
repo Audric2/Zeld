@@ -6,9 +6,10 @@
 #define TAILLE_Y 32
 #define TAILLE_X 64
 
+//ujgv g tg
 
 void affichage(int tab[TAILLE_Y][TAILLE_X]){
-	int i,j;
+	int i,j,o,p;
 	for(i=0;i<TAILLE_Y;i++){
 		for(j=0;j<TAILLE_X;j++){
 			switch(tab[i][j]){
